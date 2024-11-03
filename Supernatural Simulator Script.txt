@@ -6,6 +6,11 @@ local PhantomForcesWindow = Library:NewWindow("Supernatural Simulator")
 local player = game.Players.LocalPlayer
 local frame = player.PlayerGui.Main_Gui.ShowErrorMessage_Frame
 
+_G.autocloseframe = true
+while _G.autocloseframe == true do
+frame.Visible = false
+wait(0.1)
+
 local KillingCheats = PhantomForcesWindow:NewSection("Main")
 
 KillingCheats:CreateToggle("Auto Strength", function(state)
@@ -47,11 +52,6 @@ end)
 KillingCheats:CreateToggle("Auto Buy Hero", function(state)
     if state then
 _G.autobuyhero = true
-_G.autocloseframe = true
-while _G.autocloseframe == true do
-frame.Visible = false
-wait(0.1)
-end
 while _G.autobuyhero == true do
 frame.Visible = false
 local args = {
