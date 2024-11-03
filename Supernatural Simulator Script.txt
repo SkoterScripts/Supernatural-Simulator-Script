@@ -2765,7 +2765,7 @@ Seconds:CreateToggle("Remove Error Buy", function(state)
 _G.autoremovepop = true
 while _G.autoremovepop == true do
 frame.Visible = false
-wait(0)
+wait()
 end
      else
 _G.autoremovepop = false
