@@ -2760,12 +2760,12 @@ _G.autobuycapacity = false
 end
 end)
 
-Seconds:CreateToggle("Auto Remove Pop Up No Buy", function(state)
+Seconds:CreateToggle("Remove Error Buy", function(state)
     if state then
 _G.autoremovepop = true
 while _G.autoremovepop == true do
 frame.Visible = false
-wait(0.1)
+wait(0)
 end
      else
 _G.autoremovepop = false
