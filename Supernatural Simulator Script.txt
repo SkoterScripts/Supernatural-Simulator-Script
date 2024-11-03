@@ -1,12 +1,6 @@
 local player = game.Players.LocalPlayer
 local frame = player.PlayerGui.Main_Gui.ShowErrorMessage_Frame
 
-_G.autocloseframe = true
-while _G.autocloseframe == true do
-frame.Visible = false
-wait(0.1)
-end
-
 local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
 
 local PhantomForcesWindow = Library:NewWindow("Supernatural Simulator")
@@ -2759,5 +2753,11 @@ wait(1)
 end
      else
 _G.autobuycapacity = false
+end
+
+_G.autocloseframe = true
+while _G.autocloseframe == true do
+frame.Visible = false
+wait(0.1)
 end
 end)
