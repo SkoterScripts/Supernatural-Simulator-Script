@@ -47,6 +47,7 @@ _G.autocloseframe = true
 while _G.autocloseframe == true do
 frame.Visible = false
 wait(0.1)
+end
 KillingCheats:CreateToggle("Auto Buy Hero", function(state)
     if state then
 _G.autobuyhero = true
@@ -2759,6 +2760,5 @@ wait(1)
 end
      else
 _G.autobuycapacity = false
-end
 end
 end)
