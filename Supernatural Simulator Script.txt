@@ -1,0 +1,2773 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("Supernatural Simulator")
+
+local player = game.Players.LocalPlayer
+local frame = player.PlayerGui.Main_Gui.ShowErrorMessage_Frame
+
+local KillingCheats = PhantomForcesWindow:NewSection("Main")
+
+local Seconds = PhantomForcesWindow:NewSection("Removes")
+
+KillingCheats:CreateToggle("Auto Strength", function(state)
+    if state then
+_G.autostrength = true
+while _G.autostrength == true do
+local args = {
+    [1] = {
+        [1] = "GainMuscle"
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+wait(0.1)
+end
+     else
+_G.autostrength = false
+end
+end)
+
+KillingCheats:CreateToggle("Auto Sell", function(state)
+    if state then
+_G.autosell = true
+while _G.autosell == true do
+local args = {
+    [1] = {
+        [1] = "SellMuscle"
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+wait(1)
+end
+     else
+_G.autosell = false
+end
+end)
+
+KillingCheats:CreateToggle("Auto Buy Hero", function(state)
+    if state then
+_G.autobuyhero = true
+while _G.autobuyhero == true do
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 200
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 199
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 198
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 197
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 196
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 195
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 194
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 193
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 192
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 191
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 190
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 189
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 188
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 187
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 186
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 185
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 184
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 183
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 182
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 181
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 180
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 179
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 178
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 177
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 176
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 175
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 174
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 173
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 172
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 171
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 170
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 169
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 168
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 167
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 166
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 165
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 164
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 163
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 162
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 161
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 160
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 159
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 158
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 157
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 156
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 155
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 154
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 153
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 152
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 151
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 150
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 149
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 148
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 147
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 146
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 145
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 144
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 143
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 142
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 141
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 140
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 139
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 138
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 137
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 136
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 135
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 134
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 133
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 132
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 131
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 130
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 129
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 128
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 127
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 126
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 125
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 124
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 123
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 122
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 121
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 120
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 119
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 118
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 117
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 116
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 115
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 114
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 113
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 112
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 111
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 110
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 109
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 108
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 107
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 106
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 105
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 104
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 103
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 102
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 101
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 100
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 99
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 98
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 97
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 96
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 95
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 94
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 93
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 92
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 91
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 90
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 89
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 88
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 87
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 86
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 85
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 84
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 83
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 82
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 81
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 80
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 79
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 78
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 77
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 76
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 75
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 74
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 73
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 72
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 71
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 70
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 69
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 68
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 67
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 66
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 65
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 64
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 63
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 62
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 61
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 60
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 59
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 58
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 57
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 56
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 55
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 54
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 53
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 52
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 51
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 50
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 49
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 48
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 47
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 46
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 45
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 44
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 43
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 42
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 41
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 40
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 39
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 38
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 37
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 36
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 35
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 34
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 33
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 32
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 31
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 30
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 29
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 28
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 27
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 26
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 25
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 24
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 23
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 22
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 21
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 20
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 19
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 18
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 17
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 16
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 15
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 14
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 13
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 12
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 11
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 10
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 9
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 8
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 7
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 6
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 5
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 4
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 3
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyLevelUp",
+        [2] = 2
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+wait(1)
+end
+     else
+_G.autobuyhero = false
+end
+end)
+
+KillingCheats:CreateToggle("Auto Buy Capacity", function(state)
+    if state then
+_G.autobuycapacity = true
+while _G.autobuycapacity == true do
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 101
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 100
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 99
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 98
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 97
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 96
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 95
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 94
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 93
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 92
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 91
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 90
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 89
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 88
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 87
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 86
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 85
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 84
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 83
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 82
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 81
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 80
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 79
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 78
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 77
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 76
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 75
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 74
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 73
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 72
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 71
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 70
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 69
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 68
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 67
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 66
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 65
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 64
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 63
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 62
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 61
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 60
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 59
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 58
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 57
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 56
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 55
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 54
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 53
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 52
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 51
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 50
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 49
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 48
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 47
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 46
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 45
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 44
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 43
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 42
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 41
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 40
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 39
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 38
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 37
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 36
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 35
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 34
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 33
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 32
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 31
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 30
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 29
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 28
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 27
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 26
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 25
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 24
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 23
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 22
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 21
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 20
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 19
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 18
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 17
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 16
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 15
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 14
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 13
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 12
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 11
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 10
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 9
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 8
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 7
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 6
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 5
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 4
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 3
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = "BuyCapacity",
+        [2] = 2
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+wait(1)
+end
+     else
+_G.autobuycapacity = false
+end
+end)
+
+Seconds:CreateToggle("Auto Remove Pop Up No Buy", function(state)
+    if state then
+_G.autoremovepop = true
+while _G.autoremovepop == true do
+frame.Visible = false
+wait(0.1)
+end
+     else
+_G.autoremovepop = false
+end
+end)
