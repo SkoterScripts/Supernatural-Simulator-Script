@@ -2760,5 +2760,5 @@ end
      else
 _G.autobuycapacity = false
 end
-end)
 end
+end)
