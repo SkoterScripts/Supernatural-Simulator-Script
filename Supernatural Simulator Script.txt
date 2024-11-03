@@ -10,6 +10,7 @@ _G.autocloseframe = true
 while _G.autocloseframe == true do
 frame.Visible = false
 wait(0.1)
+end
 
 local KillingCheats = PhantomForcesWindow:NewSection("Main")
 
